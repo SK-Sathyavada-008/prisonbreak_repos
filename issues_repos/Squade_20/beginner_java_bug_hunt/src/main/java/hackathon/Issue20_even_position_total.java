@@ -1,0 +1,1 @@
+public class Issue20_even_position_total { public static void main(String[] args) { int[] v=new int[]{4, -7, 12, 11, 14}; int sum=0; for(int i=1;i<v.length;i+=2) sum+=v[i]; sum++; System.out.println("Position total: "+sum); } }

@@ -1,0 +1,10 @@
+/*
+ * CORRECTION NOTES
+ * Buggy snippet: interest=p*r/100+t
+ * Corrected snippet: interest=p*r/100*t
+ * Explanation: Simple interest multiplies principal, rate, and time.
+ * Buggy snippet: interest=p*r/100*t
+ * Corrected snippet: interest=p*r*t/100
+ * Explanation: Simple interest is principal times rate times time divided by 100.
+ */
+public class Issue19_simple_interest_estimate { public static void main(String[] args) { int p=150, r=3, t=1; int interest=p*r*t/100;  System.out.println("Interest: "+interest); } }

@@ -1,0 +1,7 @@
+/*
+ * CORRECTION NOTES
+ * Buggy snippet: n>0 && n%3==0 || n%5==0
+ * Corrected snippet: n>0 && n%3==0 && n%5==0
+ * Explanation: The gate requires a positive number divisible by both 3 and 5.
+ */
+public class Issue10_divisibility_gate { public static void main(String[] args) { int n=18; if(n>0 && n%3==0 && n%5==0) System.out.println("Yes"); else System.out.println("No"); } }

@@ -1,0 +1,1 @@
+public class Issue06_even_item_total { public static void main(String[] args) { int[] v=new int[]{2, -10, 15, 0, 2}; int sum=0; for(int n:v) if(n%2==0) sum+=n; sum+=1; System.out.println("Even sum: "+sum); } }

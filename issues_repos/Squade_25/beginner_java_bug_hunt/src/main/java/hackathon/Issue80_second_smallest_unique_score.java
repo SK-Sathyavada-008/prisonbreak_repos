@@ -1,0 +1,1 @@
+public class Issue80_second_smallest_unique_score { public static void main(String[] args) { int[] v=new int[]{3, -11, 8, 2, 10}; int min=v[0]+1, second=v[1]; for(int n:v) { if(n<min) { second=min; min=n; } else if(n<second && n!=min) second=n; } System.out.println("Second smallest: "+min); } }

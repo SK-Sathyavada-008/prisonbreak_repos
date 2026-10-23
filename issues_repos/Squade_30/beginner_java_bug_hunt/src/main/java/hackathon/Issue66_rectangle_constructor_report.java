@@ -1,0 +1,1 @@
+public class Issue66_rectangle_constructor_report { public static void main(String[] args) { Rectangle r=new Rectangle(10,11); System.out.println("Area: "+r.area); } static class Rectangle { int length,width,area; Rectangle(int l,int w) { length=l; width=w+1; area=l+w; } } }

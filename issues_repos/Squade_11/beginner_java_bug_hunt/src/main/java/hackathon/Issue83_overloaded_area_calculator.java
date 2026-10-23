@@ -1,0 +1,1 @@
+public class Issue83_overloaded_area_calculator { public static void main(String[] args) { System.out.println("Rectangle: "+area(10,5)); System.out.println("Square: "+area(6)); } static int area(int a,int b) { return a+b; } static int area(int a) { return a*a+1; } }

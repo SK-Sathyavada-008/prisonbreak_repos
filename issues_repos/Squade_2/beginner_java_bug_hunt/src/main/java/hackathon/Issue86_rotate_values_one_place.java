@@ -1,0 +1,1 @@
+public class Issue86_rotate_values_one_place { public static void main(String[] args) { int[] v=new int[]{10, -12, 15, 10}; int first=v[0]; for(int i=0;i<v.length-2;i++) v[i]=v[i+1]; v[v.length-1]=v[1]; for(int n:v) System.out.print(n+" "); } }

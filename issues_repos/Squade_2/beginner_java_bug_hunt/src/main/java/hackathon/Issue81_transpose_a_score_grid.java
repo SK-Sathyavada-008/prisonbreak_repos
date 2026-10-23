@@ -1,0 +1,1 @@
+public class Issue81_transpose_a_score_grid { public static void main(String[] args) { int[][] a={{4,9,6},{10,7,5}}; for(int j=0;j<2;j++) { for(int i=0;i<2;i++) System.out.print((a[i][j]+1)+" "); System.out.println(); } } }

@@ -1,0 +1,27 @@
+# Issue #58: Write `findHighestStockDifferences` for Inventory Audit and Discrepancy Resolver
+
+**Difficulty:** Very Hard  
+**Scenario:** Inventory Audit and Discrepancy Resolver: Return the highest value in the supplied stock differences array.  
+**Topic:** method-writing with variables, conditions, loops, arrays, strings, and basic classes  
+**Starter file:** `src/main/java/hackathon/Issue58_VH27_InventoryAuditAndDiscrepancyResolver.java`
+
+## Scenario brief
+Inventory Audit and Discrepancy Resolver: Return the highest value in the supplied stock differences array.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
+
+## Task
+The starter calls `findHighestStockDifferences(int[] values)`, but the method has not been written. Write this method from scratch. Return the highest value in the supplied stock differences array. Use the supplied values exactly as shown in the starter file. Keep the implementation to basic Java constructs; do not use collections, inheritance, or external libraries.
+
+## Expected output
+The program should produce exactly:
+
+```text
+Highest Stock differences: 18
+```
+
+**Required method signature:** `static int findHighestStockDifferences(int[] values)`
+
+## Done when
+- [ ] The program produces the expected output.
+- [ ] The supplied scenario and test values are preserved.
+- [ ] You test one additional sensible boundary case.
+- [ ] Your pull request explains the behaviour changed and how you tested it.

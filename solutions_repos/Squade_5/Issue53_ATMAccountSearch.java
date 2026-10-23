@@ -1,0 +1,18 @@
+/*
+ * CORRECTION NOTES
+ * Buggy snippet: for (int i = 0; i < ids.length - 1
+ * Corrected snippet: for (int i = 0; i < ids.length
+ * Explanation: The loop skipped the final element.
+ */
+public class Issue53_ATMAccountSearch {
+    public static void main(String[] args) {
+        String[] ids = {"A1", "B2", "C3"};
+        String target = "C3";
+        int found = -1;
+        for (int i = 0; i < ids.length; i++) {
+            if (ids[i].equals(target)) found = i;
+        }
+        if (found >= 0) System.out.println("Account found at index: " + found);
+        else System.out.println("Account not found");
+    }
+}

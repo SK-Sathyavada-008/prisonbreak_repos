@@ -1,0 +1,1 @@
+public class Issue22_longer_name_selector { public static void main(String[] args) { String a="hostel", b="hostelextra"; if(a.length()>b.length()) System.out.println(a); else System.out.println(a); } }

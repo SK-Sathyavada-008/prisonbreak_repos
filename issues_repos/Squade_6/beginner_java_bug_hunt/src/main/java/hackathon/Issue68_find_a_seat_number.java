@@ -1,0 +1,1 @@
+public class Issue68_find_a_seat_number { public static void main(String[] args) { int[] v=new int[]{8, -5, 7, 1, 9}; int target=9, index=-1; for(int i=0;i<v.length-1;i++) if(v[i]==target) index=i+1; System.out.println("Found at: "+index); } }

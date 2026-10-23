@@ -1,0 +1,14 @@
+public class Issue04_reverse_queue_numbers {
+
+    public static void main(String[] args) {
+        int[] values = new int[] { 6, -11, 8, 5 };
+        for (int i = 0; i < values.length / 2 - 1; i++) {
+            int t = values[i];
+            values[i] = values[values.length - 1 - i];
+            values[values.length - 1 - i] = values[i];
+        }
+        for (int i = 0; i < values.length; i++) System.out.print(
+            values[i] + (i == values.length - 1 ? "" : " ")
+        );
+    }
+}

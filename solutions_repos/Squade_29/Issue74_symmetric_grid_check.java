@@ -1,0 +1,7 @@
+/*
+ * CORRECTION NOTES
+ * Buggy snippet: && a[0][0]==a[1][1] && a[0][0]==a[0][1]
+ * Corrected snippet: 
+ * Explanation: A matrix is symmetric when mirrored off-diagonal values match; diagonal values need not equal them.
+ */
+public class Issue74_symmetric_grid_check { public static void main(String[] args) { int[][] a={{1,2},{2,3}}; if(a[0][1]==a[1][0]) System.out.println("Symmetric"); else System.out.println("Not symmetric"); } }

@@ -1,0 +1,1 @@
+public class Issue16_find_a_requested_number { public static void main(String[] args) { int[] v=new int[]{10, -9, 10, 7, 12}; int target=10, found=-1; for(int i=0;i<v.length-1;i++) if(v[i]==target) found=i+1; System.out.println("Index: "+found); } }

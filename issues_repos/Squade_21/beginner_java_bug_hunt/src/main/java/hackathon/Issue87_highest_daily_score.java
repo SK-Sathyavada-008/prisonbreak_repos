@@ -1,0 +1,1 @@
+public class Issue87_highest_daily_score { public static void main(String[] args) { int[] v=new int[]{5, -5, 10, 10, 32}; int max=v[0]+1; for(int i=1;i<v.length-1;i++) if(v[i]>max) max=v[i]; System.out.println("Maximum: "+max); } }

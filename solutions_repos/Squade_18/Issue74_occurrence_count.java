@@ -1,0 +1,10 @@
+/*
+ * CORRECTION NOTES
+ * Buggy snippet: for(int i=0;i<v.length-1
+ * Corrected snippet: for(int i=0;i<v.length
+ * Explanation: The loop skipped the final element.
+ * Buggy snippet: count--;
+ * Corrected snippet: 
+ * Explanation: Do not subtract one from a valid occurrence count.
+ */
+public class Issue74_occurrence_count { public static void main(String[] args) { int[] v=new int[]{2, 9, 2, 13, 2}; int target=2, count=0; for(int i=0;i<v.length;i++) if(v[i]==target) count++;  System.out.println("Occurrences: "+count); } }

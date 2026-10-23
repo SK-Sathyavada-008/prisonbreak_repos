@@ -1,0 +1,1 @@
+public class Issue81_bank_balance_update { public static void main(String[] args) { Account a=new Account(550); a.deposit(61); a.withdraw(30); System.out.println("Balance: "+a.balance); } static class Account { int balance; Account(int b) { balance=b; } void deposit(int n) { balance-=n; } void withdraw(int n) { balance-=n+1; } } }
